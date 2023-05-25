@@ -1,0 +1,35 @@
+.listing-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.listing-card__image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.listing-card__details {
+  flex: 1;
+}
+
+.listing-card__location {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.listing-card__rate {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.listing-card__other-details {
+  font-size: 14px;
+  margin: 0;
+}
